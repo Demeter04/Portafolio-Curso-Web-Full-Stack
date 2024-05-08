@@ -1,102 +1,101 @@
-body{
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+header {
+  
+  justify-content: space-between;
+  padding: 20px 40px;
+  display: flex;
 }
 
-.header{
-    display: flex;
-    justify-content: space-between;
-    height: 50px;
-    background-color: #72A0C3;
+.img-head{
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
-.name-up {
-    height: 30px;
-    margin-left: 5px;
-    justify-content: flex-start;
+.linkedin-icon {
+  color: red;
+  height: 45px;
 }
 
-.img-up{
-    display: inline-flex;
-    margin: 5px;
-    height: 30px;
-    align-items: center;
-    justify-content: center;
+.download-icon {
+  height: 15px;  
+}
+.download-link{
+  color: white;
+  text-decoration: none;
+  background-color: var(--gris);
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.main-t {
+  outline: 2px solid black;
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
-
-.main-t{
-    outline: 2px solid black;
-    display: grid;
-    grid-template-columns: auto auto ;
-    
+.text-main {
+  outline: 1px solid red;
+  font-size: 36px;
+  text-align: center;
 }
 
-.text-main{
-    outline: 1px solid red;
-    font-size: 36px;
-    text-align: center;
+.dos {
+  grid-column: 1/2;
+  font-size: 14px;
+  text-align: justify;
 }
 
-.dos{
-    grid-column: 1/2;
-    font-size: 14px;
-    text-align: justify;
-    
+.tres {
+  font-size: 14px;
+  grid-column: 2/3;
+  grid-row: 1/3;
 }
 
-.tres{
-    font-size: 14px;
-    grid-column: 2/3;
-    grid-row: 1/3;
-    
+.Boton-main {
+  grid-column: 1/2;
+  grid-row: 3/3;
+  display: inline-flex;
+  justify-self: center;
+  justify-content: center;
+  height: 45px;
+  width: 180px;
+  background-color: #40c351;
+  border-radius: 25px;
 }
 
-.Boton-main{
-    grid-column: 1/2;
-    grid-row: 3/3;
-    display: inline-flex;
-    justify-self: center;
-    justify-content: center;
-    height: 45px;
-    width: 180px;
-    background-color: #40C351;   
-    border-radius: 25px;
+.whatsapp-main {
+  margin: 5px;
+  height: 30px;
+  object-fit: cover;
 }
 
-.whatsapp-main{
-    margin: 5px;
-    height: 30px;
-    object-fit: cover;
+.text-whats {
+  font-size: 12px;
+  margin-right: 25px;
+}
+.foto-main {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  object-fit: cover;
+  width: 200px;
+  justify-self: center;
+  justify-content: center;
+  border-radius: 50%;
 }
 
-.text-whats{
-    font-size: 12px;
-    margin-right: 25px;
+.Footer {
+  outline: 2px solid black;
+  position: relative;
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+  justify-self: center;
+  margin-left: 45px;
 }
-.foto-main{
-    grid-column: 2/3;
-    grid-row: 2/3;
-    object-fit: cover;
-    width: 200px;
-    justify-self: center;
-    justify-content: center;
-    border-radius: 50%;
+.img {
+  display: grid;
 }
-
-.Footer{
-    outline: 2px solid black;
-    position: relative;
-    display: inline-flex;
-    text-align: center;
-    align-items: center;
-    justify-self: center;
-    margin-left: 45px;
-
-}
-.img{
-    display: grid;
-}
-.text{
-    display: grid;
+.text {
+  display: grid;
 }

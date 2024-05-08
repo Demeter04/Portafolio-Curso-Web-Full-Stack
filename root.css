@@ -1,0 +1,19 @@
+:root {
+  --azul-claro: #72a0c3;
+  --azul-oscuro: #0c3197;
+  --morado: #753d9b;
+  --verde: #40c351;
+  --beige-claro: #f8f7f1;
+  --beige-oscuro: #787676;
+  --azul-linkedin: #0e76a8;
+  --gris: #2d2828;
+
+  --azul-1: #072d62 20% /* 20% */;
+  --azul-2: 90% #0f5cc8 /* 90% */;
+  --azul-3: 100% #0f5cc8 /* 100% */;
+}
+
+body{
+    margin: 0px;
+    font-family: Helvetica, 'Segoe UI', Arial;
+}
