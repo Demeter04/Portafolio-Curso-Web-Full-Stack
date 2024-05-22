@@ -18,13 +18,14 @@ header {
 
 .download-icon {
   height: 15px;
-  align-items: center; 
+  align-items: center;
 }
 .download-link{
+  display: flex;
   color: white;
   text-decoration: none;
   background-color: var(--gris);
-  padding: 10px 5px;
+  padding: 10px 10px;
   margin: 0 auto;
   border-radius: 10px;
 }
@@ -50,11 +51,12 @@ main {
 }
 
 .htmain h2{
-  font-size: 20px;
+  margin-top: 12%;
+  font-size: 18px;
 }
 
 .htmain h3{
-  font-size: 17px;
+  font-size: 16px;
 }
   
 .htws{
@@ -71,31 +73,123 @@ main {
 }
 
 
-
-
 .hws-icon{
   height: 30px;
   /* height: 30px; */
 }
 
+
 .hfm {
-  height: 300px;
-  /* grid-column: 2/3;
-  grid-row: 2/3;
-  object-fit: cover;
-  width: 200px;
-  justify-self: center;
+  display: flex;
   justify-content: center;
-  border-radius: 50%; */
+  margin: 0 auto;
+  object-fit: cover;
+  height: 200px;
+  width: 400px;
+  width: auto;
+  border-radius: 80%;
 }
+
+
+.hmain figcaption{
+  margin-bottom: 100px;
+  word-spacing: 15px;
+  font-size: 16px;
+  text-align: left;
+  
+}
+
+.hmain{
+  justify-content: center;
+  align-items: center;
+   margin: 0 auto;
+}
+
+.curvamain{
+  margin: 0 auto;
+  margin-top: -200px;
+  height: 100dvh; 
+  width: 99dvw; 
+  position: absolute;
+  top: 445px;
+}
+
+.Allskills{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.Skill{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px #ebdfdfe0;
+}
+
+.Skill a,svg{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.Skill a{
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.Skill svg{
+  background-color: blue;
+  height: 10dvh;
+  width: 10dvw;
+  border-radius: 80%;
+  padding: 8px 5px;
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .Footer {
   outline: 2px solid black;
-  position: relative;
+  margin: 0 auto;
   display: inline-flex;
   text-align: center;
   align-items: center;
-  justify-self: center;
   margin-left: 45px;
 }
 .img {
